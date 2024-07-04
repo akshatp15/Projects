@@ -1,0 +1,75 @@
+.shoes-grid{
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.shoe-img{
+    width: 100%;
+    object-fit: cover;
+    height: 350px;
+}
+.shoe-box{
+    border-color: black;
+    border-style: solid;
+    background-color: pink;
+}
+.shoe-name-box{
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.shoe-name{
+    font-size: 18px;
+    font-family: Oswald, Arial;
+    font-weight: 450;
+}
+.shoe-release-year{
+    padding-top: 5px;
+    padding-left: 5px;
+    font-family: Oswald, Arial;
+}
+.brand{
+    padding-top: 5px;
+    padding-left: 5px;
+    font-family: Oswald, Arial;
+}
+.shoe-features{
+    padding-top: 5px;
+    padding-left: 5px;
+    font-family: Oswald, Arial;
+    line-height: 19px;
+}
+.price{
+    padding-top: 5px;
+    padding-left: 5px;
+    font-family: Oswald, Arial;
+}
+.shoe-review{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+.review-link{
+    text-decoration: underline;
+    color: black;
+    font-family: Oswald, Arial;
+}
+@media(max-width: 750px){
+    .shoes-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(min-width: 990px){
+    .shoes-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+

@@ -1,0 +1,46 @@
+.box{
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.text{
+  margin-bottom: 5px;
+}
+.input{
+  margin-bottom: 10px;
+  margin-left: 5px;
+  border-color: black;
+  border: solid;
+  outline: none;
+}
+.input:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  outline: none;
+}
+body{
+  background-color: black;
+  font-family: Oswald, Arial;
+}
+.log-in-button, .create-acc-button{
+  background-color: pink;
+  border-style: solid;
+  width: 100px;
+  font-family: Oswald, Arial;
+  transition: 0.2s;
+  margin-bottom: 10px;
+}
+.log-in-button:hover, .create-acc-button:hover{
+  background-color: black;
+  color: pink;
+}
+body{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+  margin: 0;
+}

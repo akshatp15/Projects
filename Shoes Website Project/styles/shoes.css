@@ -1,3 +1,6 @@
+body{
+    font-family: Oswald, Arial;
+}
 .shoes-grid{
     display: grid;
     background-color: white;
@@ -46,18 +49,53 @@
     font-family: Oswald, Arial;
     line-height: 19px;
 }
+.purchase-options{
+    padding-bottom: 5px;
+    height: 120px;
+}
+.shoe-general{
+    height: 160px;
+}
 .price{
     padding-top: 5px;
     padding-left: 5px;
     font-family: Oswald, Arial;
 }
+
+.shoe-buy-links{
+    display: block;
+    padding-top: 5px;
+    padding-left: 5px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: black;
+    font-family: Oswald, Arial;
+}
+.shoe-details{
+    margin: 0;
+    padding: 0;
+}
+.detail-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-width: 1px 0; /* Only top and bottom border */
+    color: pink;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
 .shoe-review{
+    padding-bottom: 5px;
+}
+.review-link{
     padding-top: 5px;
     padding-left: 5px;
     padding-bottom: 8px;
     cursor: pointer;
-}
-.review-link{
     text-decoration: underline;
     color: black;
     font-family: Oswald, Arial;
@@ -72,4 +110,3 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
-

@@ -4,7 +4,7 @@
 <p> - Please open amazon.hmtl using open server extension on VSCode to view the project</p>
 <h3>NBA Data Project</h3> 
 - This project utilizes the NBA API along with Python to pull James Harden's stats and then uploads the data to Excel using the Pandas library where further analysis on his performance is done on various different metrics such as Home vs Away, Playoffs vs Regular Season, Wins vs Losses, and more.
-<p> - Please look at the PowerPoint presentation to see how James Harden performance varies depending on the various differnet metrics and take a look at the python file to see how the data was obtained and cleaned.</p>
+<p> - Please look at the PowerPoint presentation to see how James Harden's performance varies depending on the various differnet metrics and take a look at the python file to see how the data was obtained and cleaned.</p>
 <h3>Rock-Paper-Scissors Game</h3> 
 <p>- Please download folder and open rock-paper-scissors.html to view the project</p>
 <h3>Shoes Website Project</h3> 

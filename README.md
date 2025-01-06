@@ -1,5 +1,6 @@
 # Projects
-<h3>Amazon Project</h3> 
+<h3>Amazon Project</h3>
+- This project is made to mimic amazon.com and offers all the same functionality as the actual site including searching for products, adding products to cart, placing an order and tracking orders.
 <p> - Please open amazon.hmtl using open server extension on VSCode to view the project</p>
 <h3>NBA Data Project</h3> 
 <p> - Please look at the PowerPoint presentation along with the python file to see how the data was obtained</p>

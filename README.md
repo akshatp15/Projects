@@ -1,9 +1,9 @@
 # Projects
 <h3>Amazon Project</h3>
 <ul>
-  <p> This project mimics the functionality of Amazon.com, allowing users to search for products, add items to the cart, place orders, and track their orders.</p>
-<p>- Technologies used: HTML, CSS, JavaScript.</p>
-<p>- To view the project, download the "Amazon Project" folder and open amazon.html using the Open Server extension in VSCode.</p>
+  <li> This project mimics the functionality of Amazon.com, allowing users to search for products, add items to the cart, place orders, and track their orders.</li>
+<li> Technologies used: HTML, CSS, JavaScript.</li>
+<li> To view the project, download the "Amazon Project" folder and open amazon.html using the Open Server extension in VSCode.</li>
 </ul>
 <h3>NBA Data Project</h3> 
 <p>- This project uses the NBA API along with Python to retrieve James Harden's stats. The data is then uploaded to Excel using the Pandas library for analysis on various metrics, such as Home vs Away, Playoffs vs Regular Season, Wins vs Losses, etc.</p>
